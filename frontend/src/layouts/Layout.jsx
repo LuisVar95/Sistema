@@ -28,10 +28,6 @@ const Layout = () => {
           {/* Menú de navegación reorganizado */}
           <nav className="mt-8">
             <Link to="/" className={`flex items-center gap-2 p-4 hover:bg-gray-700 ${getLinkClass('/')}`}>
-              <FaHome className="text-xl" />
-              <span>Home</span>
-            </Link>
-            <Link to="/cultivos" className={`flex items-center gap-2 p-4 hover:bg-gray-700 ${getLinkClass('/cultivos')}`}>
               <FaLeaf className="text-xl" />
               <span>Cultivos</span>
             </Link>
@@ -42,10 +38,6 @@ const Layout = () => {
             <Link to="/esquejes" className={`flex items-center gap-2 p-4 hover:bg-gray-700 ${getLinkClass('/esquejes')}`}>
               <FaCut className="text-xl" />
               <span>Esquejes</span>
-            </Link>
-            <Link to="/registros" className={`flex items-center gap-2 p-4 hover:bg-gray-700 ${getLinkClass('/registros')}`}>
-              <FaClipboard className="text-xl" />
-              <span>Registros</span>
             </Link>
           </nav>
         </div>
